@@ -1,0 +1,79 @@
+name: account_book
+description: "A production-ready Flutter accounting and expense management application."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI & Material Design
+  cupertino_icons: ^1.0.8
+
+  # State Management
+  riverpod: ^2.4.0
+  flutter_riverpod: ^2.4.0
+
+  # Serialization
+  freezed_annotation: ^2.4.1
+  json_annotation: ^4.8.1
+
+  # Database
+  drift: ^2.14.0
+  sqlite3_flutter_libs: ^0.5.15
+  path: ^1.8.3
+
+  # Routing
+  go_router: ^13.0.0
+
+  # Storage
+  flutter_secure_storage: ^9.0.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+  # Notifications
+  flutter_local_notifications: ^17.0.0
+  timezone: ^0.9.3
+
+  # Export & Share
+  pdf: ^3.10.4
+  csv: ^6.0.0
+  share_plus: ^7.0.0
+  path_provider: ^2.1.0
+
+  # Authentication
+  local_auth: ^2.2.0
+
+  # Internationalization
+  intl: ^0.19.0
+
+  # Utilities
+  uuid: ^4.1.0
+  image_picker: ^1.0.0
+  cached_network_image: ^3.3.0
+  http: ^1.1.0
+  get_it: ^7.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.4.6
+  freezed: ^2.4.1
+  json_serializable: ^6.7.0
+  drift_dev: ^2.14.0
+  hive_generator: ^2.0.0
+
+  # Testing
+  mockito: ^5.4.2
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
